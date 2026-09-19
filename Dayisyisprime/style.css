@@ -1,0 +1,74 @@
+
+/* Diseño para computadora */
+
+body {
+    background-color: #F5D8B8;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+.inicio {
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+
+    text-align: center;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #8B5E4B;
+}
+
+p {
+    color: #6B5145;
+    font-size: 17px;
+}
+
+button {
+    background-color: #8B5E4B;
+    color: white;
+
+    border: none;
+    padding: 12px 25px;
+
+    border-radius: 10px;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+/* 📱 Diseño para celulares */
+
+@media (max-width: 600px) {
+
+    .inicio {
+        width: 80%;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+    }
+
+}
+
+
